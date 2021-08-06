@@ -6,7 +6,8 @@ I am working on a fast version of mirror manhattan plot that essentially repalce
  gmirror_fast(top=gwas.t, bottom = gwas.b, tline=5e-8, bline=5e-8)
  ```
  
- [Rplot02.pdf](https://github.com/jianhuig/Fast-Mirror-Manhattan-Plot/files/6947752/Rplot02.pdf)
+![Rplot02-1](https://user-images.githubusercontent.com/58570421/128565407-905caaa0-9298-4bc9-bee1-b147592671b4.png)
+
 
 
 I also added an option of using pseduo-log-transformed y axis. This is helpful for visualizing some traits (e.g. height) with many small p-values (and therefore much larger on -log10(p) than rest of the SNPs). 
