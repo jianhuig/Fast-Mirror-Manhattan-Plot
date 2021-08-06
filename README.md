@@ -18,3 +18,9 @@ I also added an option of using pseduo-log-transformed y-axis. This is helpful f
 ![gmirror-1](https://user-images.githubusercontent.com/58570421/128565456-448e658d-b56a-45d2-a829-fbad36a45c58.png)
 
 Annotations and highlight are same as in the [hudson](https://github.com/anastasia-lucas/hudson) package.
+
+ ```{r}
+ rsid <- gwas[gwas$pval<5e-30,]$rsid
+ gmirror_fast(top=gwas.t, bottom = gwas.b, tline=5e-8, bline=5e-8, log_axis=TRUE)
+ ```
+ ![gmirror](https://user-images.githubusercontent.com/58570421/128566570-8c8d7449-76aa-4e92-a712-9beab4b2b53c.png)
