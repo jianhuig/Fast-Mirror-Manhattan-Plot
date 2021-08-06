@@ -11,3 +11,6 @@ I am working on a fast version of mirror manhattan plot that essentially repalce
 
 
 I also added an option of using pseduo-log-transformed y axis. This is helpful for visualizing some traits (e.g. height) with many small p-values (and therefore much larger on -log10(p) than rest of the SNPs). 
+
+![gmirror-1](https://user-images.githubusercontent.com/58570421/128565456-448e658d-b56a-45d2-a829-fbad36a45c58.png)
+
